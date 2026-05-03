@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
       <div className="bg-[#00040f] flex justify-center">
-        <div className="min-h-screen w-3.8/5 relative">
+        <div className="min-h-screen w-4/5 relative">
           <Navbar></Navbar>
           <div className="flex items-center justify-between mt-15 ml-10">
             <Hero_word></Hero_word>

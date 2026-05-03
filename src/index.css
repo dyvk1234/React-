@@ -13,7 +13,7 @@
 
 .pink__gradient {
   background: linear-gradient(90deg, #f4c4f3 0%, #6d6d6d 100%);
-  filter: blur(225px);
+  filter: blur(240px);
 }
 
 .white__gradient {
