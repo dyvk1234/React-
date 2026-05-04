@@ -5,7 +5,7 @@ import Feature from "./components/Feature";
 const App = () => {
   return (
     <>
-      <div className="bg-[#00040f] flex justify-center">
+      <div className="bg-[#020018] flex justify-center">
         <div className="min-h-screen w-4/5 relative">
           <Navbar></Navbar>
           <div className="flex items-center justify-between mt-15 ml-10">
