@@ -1,5 +1,6 @@
 import ThingToWinFirst from "./ThingToWinFirst";
 import ThingToWinSecond from "./ThingToWinSecond";
+import ThingToWinThird from "./ThingToWinThird";
 const Feature = () => {
   return (
     <div className="mb-32 mt-10 px-10">
@@ -16,6 +17,7 @@ const Feature = () => {
       </div>
       <ThingToWinFirst></ThingToWinFirst>
       <ThingToWinSecond></ThingToWinSecond>
+      <ThingToWinThird></ThingToWinThird>
     </div>
   );
 };
