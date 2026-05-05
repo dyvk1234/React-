@@ -20,3 +20,24 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(500px);
 }
+@layer components {
+  .reveal-up {
+    @apply opacity-0 translate-y-10 transition-all duration-700 ease-out;
+  }
+
+  .reveal-left {
+    @apply opacity-0 -translate-x-10 transition-all duration-700 ease-out;
+  }
+
+  .reveal-right {
+    @apply opacity-0 translate-x-10 transition-all duration-700 ease-out;
+  }
+
+  .reveal-zoom {
+    @apply opacity-0 scale-90 transition-all duration-700 ease-out;
+  }
+
+  .show {
+    @apply opacity-100 translate-x-0 translate-y-0 scale-100;
+  }
+}

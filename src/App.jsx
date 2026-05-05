@@ -2,7 +2,9 @@ import HeroImg from "./assets/hero.png";
 import Navbar from "./components/Navbar";
 import Hero_word from "./components/Hero_word";
 import Feature from "./components/Feature";
+import useReveal from "./hooks/Reveal";
 const App = () => {
+  useReveal();
   return (
     <>
       <div className="bg-[#020018] flex justify-center">

@@ -1,6 +1,6 @@
 const ThingToWinThird = () => {
   return (
-    <div className="w-full flex justify-center mt-10">
+    <div className="reveal-left reveal-once w-full flex justify-center mt-10">
       <div
         className="h-45 w-full rounded-2xl border border-blue-500/30 p-8 
                       bg-gradient-to-r from-[#040924] via-[#0a1a3a] to-[#0b2a6b]

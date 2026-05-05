@@ -1,6 +1,6 @@
 const ThingToWinSecond = () => {
   return (
-    <div className="mt-12 h-30 group relative p-8 rounded-2xl bg-[#0f172a]/50 border backdrop-blur-sm border-blue-500/50 shadow-xl">
+    <div className="reveal-zoom reveal-repeat delay-100 mt-12 h-30 group relative p-8 rounded-2xl bg-[#0f172a]/50 border backdrop-blur-sm border-blue-500/50 shadow-xl">
       <div className="grid grid-cols-4 gap-6 ">
         <div
           data-title="div-1"

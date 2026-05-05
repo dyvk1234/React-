@@ -1,12 +1,13 @@
-const Footer = () => {
+import logo from "../assets/logo.png";
+function Footer() {
   return (
     <footer className="w-full bg-gradient-to-r from-[#020617] via-[#0a1a3a] to-[#020617] text-gray-400 py-10 px-10">
       <div className="max-w-6xl mx-auto grid grid-cols-5 gap-8">
         {/* LEFT */}
         <div className="col-span-2">
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-8 h-8 bg-blue-600 rounded-md flex items-center justify-center text-white font-bold">
-              N
+            <div className="w-8 h-8 rounded-md flex items-center justify-center text-white font-bold">
+              <img src={logo} className="rounded-lg h-8 w-8" />
             </div>
             <span className="text-white font-semibold text-lg">NEXORA</span>
           </div>
@@ -71,6 +72,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-};
+}
 
 export default Footer;
