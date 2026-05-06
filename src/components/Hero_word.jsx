@@ -1,6 +1,6 @@
 const Hero_word = () => {
   return (
-    <>
+    <div className="reveal-left delay-150">
       <div className="m-4 text-white ">
         <h1 className="font-bold text-6xl">Build.Connect.</h1>
         <h1 className="font-bold text-6xl text-blue-500  leading-loose">
@@ -26,7 +26,7 @@ const Hero_word = () => {
           </button>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 export default Hero_word;

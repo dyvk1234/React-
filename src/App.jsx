@@ -14,7 +14,10 @@ const App = () => {
             <Hero_word></Hero_word>
 
             <div>
-              <img src={HeroImg} className="relative w-115 h-115 z-5" />
+              <img
+                src={HeroImg}
+                className="reveal-once reveal-right delay-200 relative w-115 h-115 z-5"
+              />
               <div className="absolute z-0 w-[40%] h-[35%] top-0 right-20 pink__gradient rounded-full"></div>
             </div>
           </div>

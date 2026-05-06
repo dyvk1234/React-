@@ -43,7 +43,7 @@ const ThingToWinFirst = () => {
         </div>
 
         {/* Card 2: Community */}
-        <div className="reveal-up reveal-repeat delay-200 group relative p-8 rounded-2xl bg-[#0f172a]/50 border border-white/10 backdrop-blur-sm hover:border-blue-500/50 transition-all duration-300 shadow-xl hover:-translate-y-2">
+        <div className="reveal-up reveal-repeat delay-125 group relative p-8 rounded-2xl bg-[#0f172a]/50 border border-white/10 backdrop-blur-sm hover:border-blue-500/50 transition-all duration-300 shadow-xl hover:-translate-y-2">
           <div className="w-12 h-12 mb-6 rounded-lg bg-blue-500/10 flex items-center justify-center border border-blue-500/20 group-hover:bg-blue-500/20 transition-colors">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +80,7 @@ const ThingToWinFirst = () => {
         </div>
 
         {/* Card 3: Analytics */}
-        <div className="reveal-up reveal-repeat delay-300 group relative p-8 rounded-2xl bg-[#0f172a]/50 border border-white/10 backdrop-blur-sm hover:border-blue-500/50 transition-all duration-300 shadow-xl hover:-translate-y-2">
+        <div className="reveal-up reveal-repeat delay-150 group relative p-8 rounded-2xl bg-[#0f172a]/50 border border-white/10 backdrop-blur-sm hover:border-blue-500/50 transition-all duration-300 shadow-xl hover:-translate-y-2">
           <div className="w-12 h-12 mb-6 rounded-lg bg-blue-500/10 flex items-center justify-center border border-blue-500/20 group-hover:bg-blue-500/20 transition-colors">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -120,7 +120,7 @@ const ThingToWinFirst = () => {
         </div>
 
         {/* Card 4: Cloud Sync */}
-        <div className="reveal-up reveal-repeat delay-400 group relative p-8 rounded-2xl bg-[#0f172a]/50 border border-white/10 backdrop-blur-sm hover:border-blue-500/50 transition-all duration-300 shadow-xl hover:-translate-y-2">
+        <div className="reveal-up reveal-repeat delay-175 group relative p-8 rounded-2xl bg-[#0f172a]/50 border border-white/10 backdrop-blur-sm hover:border-blue-500/50 transition-all duration-300 shadow-xl hover:-translate-y-2">
           <div className="w-12 h-12 mb-6 rounded-lg bg-blue-500/10 flex items-center justify-center border border-blue-500/20 group-hover:bg-blue-500/20 transition-colors">
             <svg
               xmlns="http://www.w3.org/2000/svg"
